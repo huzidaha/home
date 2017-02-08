@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.13.0"
+  },
+  "name": "home",
+  "description": "Home Page =========================",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huzidaha",
+  "license": "MIT"
+}
