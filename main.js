@@ -3,17 +3,8 @@ import run from './gen'
 let isRunning = false;
 
 const init = () =>  {
-  redirectPosts();
   listen()
   play();
-}
-
-function redirectPosts () {
-  var capture = window.location.search.match(/\?post=(\d+)/)
-  var postid = capture ? capture[1] : null
-  if (postid) {
-    window.location.href = 'https://github.com/livoras/blog/issues/' + postid
-  }
 }
 
 function listen () {
